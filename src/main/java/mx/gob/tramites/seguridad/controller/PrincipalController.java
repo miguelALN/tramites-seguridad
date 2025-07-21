@@ -29,7 +29,7 @@ public class PrincipalController {
 
     @GetMapping("helloSecured")
     public String helloSecured() {
-        return "Hello worl secured";
+        return "Hello worl secured jenkins";
     }
 
     @PostMapping("/createUser")
