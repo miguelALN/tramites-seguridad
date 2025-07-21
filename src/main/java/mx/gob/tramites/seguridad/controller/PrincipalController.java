@@ -24,7 +24,7 @@ public class PrincipalController {
 
     @GetMapping("hello")
     public String hello() {
-        return "Hello world not secured";
+        return "Hello world not secured jenkins";
     }
 
     @GetMapping("helloSecured")
