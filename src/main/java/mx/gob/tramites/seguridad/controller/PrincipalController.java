@@ -24,12 +24,12 @@ public class PrincipalController {
 
     @GetMapping("hello")
     public String hello() {
-        return "Hello world not secured";
+        return "Hello world not secured jenkins";
     }
 
     @GetMapping("helloSecured")
     public String helloSecured() {
-        return "Hello worl secured";
+        return "Hello worl secured jenkins";
     }
 
     @PostMapping("/createUser")
